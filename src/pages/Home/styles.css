@@ -1,0 +1,68 @@
+/* Define uma largura máxima e centraliza o conteúdo da página */
+body {
+    max-width: 700px; /* Largura máxima do conteúdo */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 20px; /* Adiciona espaçamento interno */
+  }
+  
+  /* Estilo para o formulário */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento entre os elementos do formulário */
+    margin-bottom: 20px; /* Espaçamento abaixo do formulário */
+  }
+  
+  /* Estilo para os rótulos e campos de entrada */
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Garante que o campo de entrada ocupe toda a largura disponível */
+  }
+  
+  /* Estilo para os botões */
+  button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    cursor: pointer; /* Muda o cursor para uma mãozinha ao passar sobre o botão */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+  }
+  
+  /* Estilo para a tabela */
+  table {
+    width: 100%; /* Garante que a tabela ocupe toda a largura disponível */
+    border-collapse: collapse; /* Remove espaçamento entre as células */
+    margin-top: 20px; /* Espaçamento acima da tabela */
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Borda leve ao redor das células */
+    text-align: left; /* Alinha o texto à esquerda */
+  }
+  
+  th {
+    background-color: #f4f4f4; /* Cor de fundo dos cabeçalhos da tabela */
+  }
+  
+  /* Estilo para as ações da tabela */
+  td button {
+    background-color: #dc3545; /* Cor de fundo dos botões de ação */
+    margin-right: 5px; /* Espaçamento entre os botões */
+  }
+  
+  td button:hover {
+    background-color: #c82333; /* Cor de fundo ao passar o mouse sobre os botões */
+  }
+  
